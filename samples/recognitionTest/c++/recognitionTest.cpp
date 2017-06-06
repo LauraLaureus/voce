@@ -20,7 +20,7 @@
 * license-LGPL.txt and license-BSD.txt for more details.                *
 ************************************************************************/
 
-#include <voce/voce.h>
+#include <voce.h>
 
 #ifdef WIN32
 #include <windows.h>
@@ -33,7 +33,7 @@
 
 int main(int argc, char **argv)
 {
-	voce::init("../../../lib", false, true, "./grammar", "digits");
+	voce::init("C:/Users/Laura/Documents/voce/lib", false, true, "./grammar", "digits");
 
 	std::cout << "This is a speech recognition test. " 
 		<< "Speak digits from 0-9 into the microphone. " 
@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 			}
 
 			std::cout << "You said: " << s << std::endl;
-			//voce::synthesize(s);
+			voce::synthesize(s);
 		}
 	}
 

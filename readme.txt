@@ -1,4 +1,7 @@
 Voce
+
+_Updated version by LauraLaureus_ 2017
+
 http://voce.sourceforge.net
 Copyright (c) 2005-2008
 Tyler Streeter (http://www.tylerstreeter.net)
