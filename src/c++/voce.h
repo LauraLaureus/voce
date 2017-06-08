@@ -134,7 +134,7 @@ const std::string pathSeparator = ":";
 		// Setup the Java virtual machine.
 		JavaVMInitArgs vm_args;
 		memset(&vm_args, 0, sizeof(vm_args));
-		vm_args.version = JNI_VERSION_1_4;
+		vm_args.version = JNI_VERSION_1_6;
 
 		long status = 0;
 

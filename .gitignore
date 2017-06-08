@@ -3,3 +3,6 @@ samples/recognitionTest/c++/Debug/recognitionTest.log
 samples/recognitionTest/c++/Debug/recognitionTest.obj
 samples/recognitionTest/c++/Debug/recognitionTest.pdb
 samples/recognitionTest/c++/Debug/recognitionTest.tlog/CL.command.1.tlog
+samples/recognitionTest/c++/recognitionTest.VC.db
+samples/synthesisTest/c++/synthesisTest.VC.db
+samples/recognitionTest/c++/recognitionTest.VC.VC.opendb
